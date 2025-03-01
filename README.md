@@ -45,7 +45,8 @@
 ```sql
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
-![image](https://github.com/user-attachments/assets/0fc29e49-ef1b-48e8-8ab4-c0b54ef9f619)
+![image](https://github.com/user-attachments/assets/d1266352-5fb5-4c19-a382-881fca903455)
+
 
 
 
