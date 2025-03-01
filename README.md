@@ -26,15 +26,16 @@
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
-![image](https://github.com/user-attachments/assets/7a968b1b-2bcb-4fc4-871b-8bb3c1d3b87d)
-
+![image](https://github.com/user-attachments/assets/a5671a2b-93d0-4103-a4b4-225b1b4bbac7)
 
 
 1.4. Дайте все права для пользователя sys_temp. 
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
-![image](https://github.com/user-attachments/assets/1280d8fb-bb90-4823-8cf3-2c7133044ce8)
+![image](https://github.com/user-attachments/assets/fb1042f4-4e84-4733-856b-192f0d73a7a3)
+
+
 
 
 
@@ -54,6 +55,20 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
+![image](https://github.com/user-attachments/assets/9a987828-2738-4089-843d-37a98fbb3781)
+![image](https://github.com/user-attachments/assets/76d338a3-06f1-4ebf-85fa-9aa606e416cd)
+
+- mysql> CREATE USER 'sys_test'@'localhost' IDENTIFIED BY 'password';
+- mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
+- mysql> GRANT ALL PRIVILEGES ON *.* TO 'sys_test'@'localhost';
+- mysql> show grants for 'sys_test'@'localhost';
+- mysql> exit
+- mysql> CREATE DATABASE `sakila`;
+- mysql> SHOW DATABASES;
+- mysql> exit
+- mysql> SHOW DATABASES;
+- mysql> USE sakila;
+- mysql> SHOW TABLES;
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
 
