@@ -78,6 +78,10 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Название таблицы | Название первичного ключа
 customer         | customer_id
 ```
+![image](https://github.com/user-attachments/assets/fc5d9cb9-0a7b-4f80-b906-8b74bca49a7c)
+
+![image](https://github.com/user-attachments/assets/5698415d-9230-4bf8-965c-8a9cbfe9f582)
+
 
 
 ## Дополнительные задания (со звёздочкой*)
