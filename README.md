@@ -26,9 +26,17 @@
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
+![image](https://github.com/user-attachments/assets/7a968b1b-2bcb-4fc4-871b-8bb3c1d3b87d)
+
+
+
 1.4. Дайте все права для пользователя sys_temp. 
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
+![image](https://github.com/user-attachments/assets/1280d8fb-bb90-4823-8cf3-2c7133044ce8)
+
+
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
@@ -36,6 +44,10 @@
 ```sql
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
+![image](https://github.com/user-attachments/assets/0fc29e49-ef1b-48e8-8ab4-c0b54ef9f619)
+
+
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
